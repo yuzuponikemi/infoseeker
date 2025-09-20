@@ -3,7 +3,7 @@ from sqlalchemy import create_engine, Column, Integer, String, Text, DateTime
 from sqlalchemy.orm import declarative_base, sessionmaker
 from datetime import datetime
 try:
-    import config
+    from . import config
 except ImportError:
     print("Error: config.py not found. Please create it by copying config.py.example and filling in your details.")
     exit(1)

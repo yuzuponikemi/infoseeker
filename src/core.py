@@ -1,10 +1,10 @@
 import arxiv
 import requests
 from datetime import datetime
-from database import SessionLocal, Paper
+from .database import SessionLocal, Paper
 
 try:
-    import config
+    from . import config
 except ImportError:
     print("Error: config.py not found. Please create it by copying config.py.example and filling in your details.")
     exit(1)
