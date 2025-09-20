@@ -48,7 +48,7 @@ Infoseeker is a Python-based agent that automatically fetches new research paper
         ```bash
         cp config.py.example config.py
         ```
-    *   Open `config.py` and add your Slack webhook URL.
+    *   Open `config.py` and add your Slack webhook URL. For a detailed guide on how to get a Slack webhook URL, see the [Slack Webhook Guide](doc/slack_webhook_guide.md).
 
 ## Usage
 
