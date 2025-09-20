@@ -1,0 +1,7 @@
+# config.py.example
+SEARCH_KEYWORDS = [
+    "consciousness", "self-awareness", "digital ghost",
+    "embodied intelligence", "brain-computer interface"
+]
+SLACK_WEBHOOK_URL = "YOUR_SLACK_WEBHOOK_URL_HERE"
+DB_FILE = "papers.db"

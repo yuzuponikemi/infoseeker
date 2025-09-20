@@ -1,2 +1,7 @@
 # requirements.in
 pytest
+arxiv
+SQLAlchemy
+APScheduler
+requests
+pandas
