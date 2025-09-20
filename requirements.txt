@@ -26,6 +26,11 @@ packaging==25.0
     # via pytest
 pandas==2.3.2
     # via -r requirements.in
+importlib-metadata
+pandas
+matplotlib
+seaborn
+wordcloud
 pluggy==1.6.0
     # via pytest
 pygments==2.19.2
